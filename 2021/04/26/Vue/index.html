@@ -8,15 +8,36 @@
   <link rel="dns-prefetch" href="http://q506.github.io">
   <title>老王的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="记录生活点点滴滴">
-<meta property="og:type" content="website">
+  <meta name="description" content="一、Vue基础1、el:挂载点（1）el时用来设置Vue实例挂载（管理）的元素 （1）vue实例的作用范围：Vue会管理el选项命中的元素命中的元素及其内部的后代元素 （2）是否可以使用其他的选择器？ 可以使用，建议使用ID选择器 （3）是否可以设置其他的dom元素呢？ 可以使用，不能使用HTML、DOM 2.data  123456789101112131415161718192021	&amp;l">
+<meta property="og:type" content="article">
 <meta property="og:title" content="老王的博客">
-<meta property="og:url" content="http://q506.github.io/index.html">
+<meta property="og:url" content="http://q506.github.io/2021/04/26/Vue/index.html">
 <meta property="og:site_name" content="老王的博客">
-<meta property="og:description" content="记录生活点点滴滴">
+<meta property="og:description" content="一、Vue基础1、el:挂载点（1）el时用来设置Vue实例挂载（管理）的元素 （1）vue实例的作用范围：Vue会管理el选项命中的元素命中的元素及其内部的后代元素 （2）是否可以使用其他的选择器？ 可以使用，建议使用ID选择器 （3）是否可以设置其他的dom元素呢？ 可以使用，不能使用HTML、DOM 2.data  123456789101112131415161718192021	&amp;l">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/1.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/2.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/4.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/5.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/6.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/10.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/11.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/13.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/14.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/15.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/17.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/18.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/19.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/20.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/22.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/23.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/24.png">
+<meta property="og:image" content="http://q506.github.io/2021/04/26/Vue/25.png">
+<meta property="article:published_time" content="2021-04-26T12:52:47.963Z">
+<meta property="article:modified_time" content="2021-05-07T14:29:50.547Z">
 <meta property="article:author" content="老王">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://q506.github.io/2021/04/26/Vue/1.png">
   
     <link rel="alternative" href="/atom.xml" title="老王的博客" type="application/atom+xml">
   
@@ -152,9 +173,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-Vue" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-Vue" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
@@ -538,6 +557,27 @@ v-html指令的作用是:设置元素的<span style="color:red">innerHTML</span>
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -545,16 +585,75 @@ v-html指令的作用是:设置元素的<span style="color:red">innerHTML</span>
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/04/26/Vue/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://q506.github.io/2021/04/26/Vue/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -574,77 +673,14 @@ v-html指令的作用是:设置元素的<span style="color:red">innerHTML</span>
 
 
 
+  
+  
+  
 
   
-    <article id="post-如何安装python中的requests包" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <div style="background-color:white;width:100px;"></div>
-
-<h3 id="如何安装python中的requests包"><a href="#如何安装python中的requests包" class="headerlink" title="如何安装python中的requests包"></a>如何安装python中的requests包</h3><p>我在学爬虫时，需要安装requests包，但是网上的教程不太试用，记录我的安装requests包。</p>
-<p>1.安装pip</p>
-<p>win+R打开，输入python.exe位置，空格输入pip位置</p>
-<p>下载pip链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jHBAvtk">https://pan.baidu.com/s/1jHBAvtk</a></p>
-<div align="center"><img src="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/1.png" align="center"></div>
-
-<p>出现successfully,证明成功了</p>
-<p>2.安装requests</p>
-<div align="center"><img src="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/2.png" align="center"></div>
-
-<div align="center"><img src="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/3.png" align="center"></div>
-
-<p>3、验证是否安装成功<br>输入import requests，若无报错，则安装成功，如图</p>
-<div align="center"><img src="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/4.png" align="center"></div>
-
-<p>4.点击File-Setting-Project:program-Project Interpreter，然后好像时类似于添加确定什么的，很简单</p>
-<div align="center"><img src="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/5.png" align="center"></div>
-
-
-
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/04/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85python%E4%B8%AD%E7%9A%84requests%E5%8C%85/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
 
   
+
   
 
 
@@ -667,8 +703,8 @@ v-html指令的作用是:设置元素的<span style="color:red">innerHTML</span>
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
